@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.activePage {
+  background-color: dodgerblue !important;
+  color: #fff !important;
+}
+.list-scroll::-webkit-scrollbar {
+  width: 5px;
+  background-color: #eee;
+  border-radius: 100px;
+}
+.list-scroll::-webkit-scrollbar-thumb {
+  background-color: dodgerblue;
+  border-radius: 100px;
+}
